@@ -13,6 +13,20 @@ public class Triangle{
 	public double getPerimeter(){
 		return v1.distanceTo(v2) + v1.distanceTo(v3) + v2.distanceTo(v3);
 	}	
+	public Point getVertex(int a){
+		if (a == 0){
+			return v1;
+		}
+		if (a == 1){
+			return v2;
+		}	
+		if (a == 2){
+			return v3;
+		}
+		else{
+			return v3;
+		}	
+	}	
 	public void setVertex(int a, Point p){
 		if (a == 0){
 			v1 = p;

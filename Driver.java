@@ -14,5 +14,6 @@ public class Driver{
 		Point e = new Point(0.0, 4.0);
 		d.setVertex(0, e);
 		System.out.println(d.getPerimeter());
+		System.out.println(d.getVertex(0));
 	}	
 }
