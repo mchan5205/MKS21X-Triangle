@@ -20,5 +20,8 @@ public class Point{
 	public static double distance(Point p, Point o){
 		return Math.sqrt(Math.pow(p.x - o.x, 2) + Math.pow(p.y - o.y, 2));
 	}	
+	public String toString(){
+		return "(" + this.x + "," + this.y + ")";
+	}	
 }	
 	
