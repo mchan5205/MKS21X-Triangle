@@ -6,5 +6,10 @@ public class Driver{
 		System.out.println(p.distanceTo(o));
 		System.out.println(Point.distance(o, p));
 		System.out.println(p);
+		Point a = new Point(0.0, 5.0);
+		Point b = new Point(5.0, 5.0);
+		Point c = new Point(0.0, 0.0);
+		Triangle d = new Triangle(a, b, c);
+		System.out.println(d.getPerimeter());
 	}	
 }
