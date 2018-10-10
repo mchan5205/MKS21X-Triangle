@@ -15,5 +15,6 @@ public class Driver{
 		d.setVertex(0, e);
 		System.out.println(d.getPerimeter());
 		System.out.println(d.getVertex(0));
+		System.out.println(d);
 	}	
 }

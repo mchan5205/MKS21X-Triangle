@@ -38,4 +38,7 @@ public class Triangle{
 			v3 = p;
 		}			
 	}	
+	public String toString(){
+		return "Triangle: " + "A" + v1 + " B" + v2 + " C" + v3;
+	}	
 }	
