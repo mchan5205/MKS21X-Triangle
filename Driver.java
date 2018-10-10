@@ -11,5 +11,8 @@ public class Driver{
 		Point c = new Point(0.0, 0.0);
 		Triangle d = new Triangle(a, b, c);
 		System.out.println(d.getPerimeter());
+		Point e = new Point(0.0, 4.0);
+		d.setVertex(0, e);
+		System.out.println(d.getPerimeter());
 	}	
 }
