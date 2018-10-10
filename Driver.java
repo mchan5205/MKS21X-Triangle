@@ -4,5 +4,6 @@ public class Driver{
 		Point o = new Point(5.0, 8.0);
 		System.out.println(p.getX());
 		System.out.println(p.distanceTo(o));
+		System.out.println(Point.distance(o, p));
 	}	
 }
