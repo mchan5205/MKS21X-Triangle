@@ -15,16 +15,16 @@ public class Triangle{
 	}	
 	public Point getVertex(int a){
 		if (a == 0){
-			return v1;
+			return new Point(v1);
 		}
 		if (a == 1){
-			return v2;
+			return new Point(v2);
 		}	
 		if (a == 2){
-			return v3;
+			return new Point(v3);
 		}
 		else{
-			return v3;
+			return new Point(v3);
 		}	
 	}	
 	public void setVertex(int a, Point p){
